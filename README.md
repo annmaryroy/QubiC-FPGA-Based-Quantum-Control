@@ -1,5 +1,8 @@
-# QubiC-FPGA-Based-Quantum-Control
-Setting up and running the LBL QubiC framework on Windows using PowerShell.
+# FPGA-Based Emulation Using QubiC
+
+This repository documents my internship at the National Institute of Technology Calicut (NITC), where I explored the QubiC open-source FPGA-based quantum control framework developed by Lawrence Berkeley National Laboratory.
+
+The repository provides a beginner-friendly guide for installing, configuring, and understanding the QubiC software stack on Windows using PowerShell, along with explanations of the official tutorials, emulator workflow, and supporting literature.
 
 
 This repository documents my learning journey during my internship at **National Institute of Technology Calicut (NITC)** under **Dr. Nikhil Kumar C S**.
@@ -9,21 +12,28 @@ The goal of this repository is to help students and researchers install, configu
 ---
 ## Internship Details
 
-**Organization:** National Institute of Technology Calicut (NITC)
-
-**Department:** Electronics and Communication Engineering
+**Institute**
+National Institute of Technology Calicut
 
 **Project Title**
-
-FPGA-Based Emulation Using the QubiC Open-Source Framework
-
-**Guide**
-
-Dr. Nikhil Kumar C S
+FPGA-Based Emulation Using QubiC
 
 **Duration**
-
 May 2026 – July 2026
+
+**Guide**
+Dr. Nikhil Kumar C S
+
+**Platform**
+Windows + PowerShell
+
+**Focus Areas**
+
+- QubiC Software Framework
+- FPGA-based Quantum Control
+- Pulse-level Programming
+- Emulator-based Verification
+- Calibration Workflow
 
 ---
 ## Objectives
@@ -65,6 +75,18 @@ screenshots/
 
 ---
 
+## Quick Start
+
+1. Install Git
+2. Install Python 3.10
+3. Clone the official QubiC repositories
+4. Create the virtual environment
+5. Install dependencies
+6. Launch Jupyter Notebook
+7. Execute the tutorials
+
+---
+
 ## Learning Path
 
 For beginners, it is recommended to follow the repository in the following order:
@@ -79,6 +101,22 @@ For beginners, it is recommended to follow the repository in the following order
 8. Refer to the internship report for theoretical background.
 
 ---
+
+## Hardware Requirements
+
+This repository focuses on the software workflow.
+
+An RFSoC development board is **not required** to study:
+
+- QubiC software
+- Pulse-level programming
+- Emulator workflow
+- Tutorial notebooks
+
+Hardware execution requires a supported RFSoC platform such as the Xilinx ZCU216.
+
+---
+
 ## Skills Gained
 
 - FPGA-based Quantum Control
@@ -102,19 +140,17 @@ For beginners, it is recommended to follow the repository in the following order
 
 ## My Contribution
 
-This repository does not reproduce the official QubiC source code.
+This repository is **not** the official QubiC project.
 
-Instead, it documents my internship work on understanding, installing, configuring, and executing the QubiC framework on Windows.
+During my internship, I:
 
-It includes:
-
-- Installation guide
-- PowerShell commands
-- Tutorial explanations
-- Documentation
-- Literature references
-- Internship report
-
+- Studied the QubiC software architecture.
+- Installed and configured the framework on Windows.
+- Executed and documented the official tutorial notebooks.
+- Explored emulator-based verification.
+- Studied calibration workflows.
+- Documented the complete setup process.
+- Prepared the internship report and presentation.
 
 ---
 
