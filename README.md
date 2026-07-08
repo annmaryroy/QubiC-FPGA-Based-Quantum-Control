@@ -153,6 +153,14 @@ During my internship, I:
 - Prepared the internship report and presentation.
 
 ---
+## Future Work
+
+- Execute the workflow on RFSoC hardware
+- Explore custom pulse programming
+- Study distributed processor architecture
+- Develop additional emulator-based examples
+
+---
 
 ## Official QubiC Repositories
 
