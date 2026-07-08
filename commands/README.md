@@ -11,3 +11,16 @@ The commands are organized in the same order as the installation process.
 3. Python Environment
 4. Install Dependencies
 5. Run QubiC
+
+
+cd D:\software
+
+git clone ...
+
+python -m venv qubic_env
+
+qubic_env\Scripts\activate
+
+python -m pip install --upgrade pip
+
+pip install numpy==1.26.4
