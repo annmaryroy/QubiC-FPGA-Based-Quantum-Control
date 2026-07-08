@@ -1,32 +1,66 @@
 # 1. Prerequisites
 
-This guide explains the software required to run the **LBL QubiC Framework** on Windows.
+## Objective
 
-## Operating System
+This section describes the software and system requirements needed to install and run the **LBL QubiC Framework** on a Windows system.
 
-- Windows 11 (Recommended)
+---
+
+## System Requirements
+
+| Requirement | Recommended Version |
+|-------------|---------------------|
+| Operating System | Windows 11 |
+| Python | Python 3.10.x |
+| Git | Latest Version |
+| Terminal | Windows PowerShell |
+| Jupyter Notebook | Latest Version |
+| Internet Connection | Required for downloading repositories and packages |
+
+---
 
 ## Software Required
 
-| Software | Purpose |
-|-----------|---------|
-| Git | Clone the official QubiC repositories |
-| Python 3.10 | Required by QubiC |
-| Windows PowerShell | Command-line interface used throughout this guide |
-| Visual Studio Code (Optional) | Editing Python files and notebooks |
-| Jupyter Notebook | Running the official QubiC tutorial notebooks |
+The following software must be installed before proceeding:
+
+- Git
+- Python 3.10
+- pip
+- Windows PowerShell
+- Jupyter Notebook
 
 ---
 
-## Before You Begin
+## Verify the Installation
 
-Verify the following:
+Open **Windows PowerShell** and verify the installation of each tool.
 
-- Git is installed.
-- Python 3.10 is installed.
-- PowerShell is available.
-- Internet connection is working.
+### Check Python
+
+```powershell
+python --version
+```
+
+### Check Git
+
+```powershell
+git --version
+```
+
+### Check pip
+
+```powershell
+pip --version
+```
 
 ---
 
-Next: [02_Install_Git.md](02_Install_Git.md)
+## Expected Output
+
+All commands should return the installed version numbers without any errors.
+
+---
+
+## Next Step
+
+Proceed to **02_Install_Git.md**.
