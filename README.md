@@ -7,6 +7,39 @@ This repository documents my learning journey during my internship at **National
 The goal of this repository is to help students and researchers install, configure, and run the official QubiC framework from scratch on Windows.
 
 ---
+## Internship Details
+
+**Organization:** National Institute of Technology Calicut (NITC)
+
+**Department:** Electronics and Communication Engineering
+
+**Project Title**
+
+FPGA-Based Emulation Using the QubiC Open-Source Framework
+
+**Guide**
+
+Dr. Nikhil Kumar C S
+
+**Duration**
+
+May 2026 – July 2026
+
+---
+## Objectives
+
+The objectives of this internship were:
+
+- Study the QubiC software stack.
+- Understand FPGA-based quantum control.
+- Execute the official QubiC tutorials.
+- Explore pulse-level quantum programming.
+- Perform calibration experiments.
+- Study emulator-based verification.
+- Understand the software workflow without requiring RFSoC hardware.
+
+
+---
 
 ## What you'll learn
 
@@ -46,6 +79,27 @@ For beginners, it is recommended to follow the repository in the following order
 8. Refer to the internship report for theoretical background.
 
 ---
+## Skills Gained
+
+- FPGA-based Quantum Control
+
+- Pulse-Level Quantum Programming
+
+- QubiC Software Stack
+
+- Emulator-Based Verification
+
+- Python Automation
+
+- Quantum Calibration
+
+- Jupyter Notebook Workflow
+
+- XML-RPC Communication
+
+
+ ---
+
 
 ## Official QubiC Repositories
 
