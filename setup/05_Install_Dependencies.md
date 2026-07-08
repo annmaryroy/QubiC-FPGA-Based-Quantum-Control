@@ -1,10 +1,16 @@
 # 5. Install Python Dependencies
 
-After activating the virtual environment, install all required Python packages.
+## Objective
+
+This section installs the Python packages required to run the **LBL QubiC Framework** and its official tutorial notebooks.
+
+All packages should be installed **after activating the Python virtual environment**.
 
 ---
 
 ## Upgrade pip
+
+Before installing the required packages, upgrade **pip** to the latest version.
 
 ```powershell
 python -m pip install --upgrade pip
@@ -12,9 +18,21 @@ python -m pip install --upgrade pip
 
 ---
 
-## Install Required Packages
+## Install the Required Packages
 
-Install the required packages one by one.
+### Option 1 (Recommended)
+
+Install all required packages using the provided **requirements.txt** file.
+
+```powershell
+pip install -r requirements.txt
+```
+
+---
+
+### Option 2 (Manual Installation)
+
+If you prefer, install the packages individually.
 
 Example:
 
@@ -26,20 +44,31 @@ pip install numpy==1.26.4
 pip install qutip==5.0.4
 ```
 
-Continue installing the remaining packages as required by the QubiC framework.
-
-> In the next revision of this guide, the complete package list from `requirements_working.txt` will be included.
+Install the remaining packages as listed in **requirements.txt**.
 
 ---
 
-## Verify Installation
+## Verify the Installation
+
+Display all installed Python packages.
 
 ```powershell
 pip list
 ```
 
-This command displays all installed Python packages.
+Verify that the required packages have been installed successfully.
 
 ---
 
-Next: [06_Run_Jupyter.md](06_Run_Jupyter.md)
+## Official Resources
+
+- **pip Documentation:** https://pip.pypa.io/en/stable/
+- **Python Packaging User Guide:** https://packaging.python.org/
+- **NumPy Documentation:** https://numpy.org/doc/
+- **QuTiP Documentation:** https://qutip.readthedocs.io/
+
+---
+
+## Next Step
+
+Proceed to **[06_Run_Jupyter.md](06_Run_Jupyter.md)** to launch Jupyter Notebook and execute the official QubiC tutorials.
