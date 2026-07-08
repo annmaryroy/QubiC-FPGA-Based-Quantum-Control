@@ -6,34 +6,39 @@ This section describes the software and system requirements needed to install an
 
 ---
 
-## System Requirements
+## Operating System
 
-| Requirement | Recommended Version |
-|-------------|---------------------|
-| Operating System | Windows 11 |
-| Python | Python 3.10.x |
-| Git | Latest Version |
-| Terminal | Windows PowerShell |
-| Jupyter Notebook | Latest Version |
-| Internet Connection | Required for downloading repositories and packages |
+- Windows 11 (Recommended)
 
 ---
 
-## Software Required
+## Software Requirements
 
-The following software must be installed before proceeding:
+| Software | Purpose |
+|-----------|---------|
+| Git | Clone the official QubiC repositories from GitLab |
+| Python 3.10 | Required to execute the QubiC software and tutorial notebooks |
+| Windows PowerShell | Command-line interface used throughout this guide |
+| Jupyter Notebook | Execute the official QubiC tutorial notebooks |
+| Visual Studio Code *(Optional)* | View and edit Python scripts and notebooks |
 
-- Git
-- Python 3.10
-- pip
-- Windows PowerShell
-- Jupyter Notebook
+---
+
+## Before You Begin
+
+Before proceeding, ensure that:
+
+- Git is installed and accessible from PowerShell.
+- Python 3.10 is installed.
+- pip is installed with Python.
+- Windows PowerShell is available.
+- A stable internet connection is available to download repositories and Python packages.
 
 ---
 
 ## Verify the Installation
 
-Open **Windows PowerShell** and verify the installation of each tool.
+Open **Windows PowerShell** and verify the installation of the required software.
 
 ### Check Python
 
@@ -57,10 +62,20 @@ pip --version
 
 ## Expected Output
 
-All commands should return the installed version numbers without any errors.
+Each command should return the installed version number without any errors.
+
+Example:
+
+```text
+Python 3.10.x
+
+git version 2.xx.x.windows.x
+
+pip xx.x.x
+```
 
 ---
 
 ## Next Step
 
-Proceed to **02_Install_Git.md**.
+Continue with **02_Install_Git.md**.
