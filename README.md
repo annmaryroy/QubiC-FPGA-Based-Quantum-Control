@@ -45,6 +45,49 @@ The objectives of this internship were to:
 - 📚 Literature references and supporting resources
 
 ---
+# Repository Navigation
+
+| Folder | Description |
+|---------|-------------|
+| 📂 `setup/` | Step-by-step guide for installing and configuring the QubiC framework on Windows. |
+| 📂 `commands/` | Windows PowerShell commands used during installation and execution. |
+| 📂 `tutorials/` | Explanation of the official QubiC tutorial notebooks and their workflows. |
+| 📂 `docs/` | Internship report, presentation, references, and supporting documentation. |
+
+---
+# Repository Workflow
+
+```text
+Start
+ │
+ ▼
+Read README
+ │
+ ▼
+Setup Guide
+ │
+ ▼
+Clone Official QubiC Repositories
+ │
+ ▼
+Create Python Environment
+ │
+ ▼
+Install Dependencies
+ │
+ ▼
+Launch Jupyter Notebook
+ │
+ ▼
+Run Official Tutorials
+ │
+ ▼
+Study Emulator Workflow
+ │
+ ▼
+Read Internship Report
+```
+---
 
 # What You'll Learn
 
