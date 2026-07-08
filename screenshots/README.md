@@ -1,3 +1,10 @@
 # Screenshots
 
-Screenshots showing installation, execution, and outputs of the QubiC tutorials.
+This folder contains screenshots captured during the installation and execution of the official QubiC tutorials.
+
+## Categories
+
+- Installation
+- Tutorial execution
+- Calibration experiments
+- Emulator execution
