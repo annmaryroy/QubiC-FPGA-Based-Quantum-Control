@@ -17,7 +17,7 @@ This section describes the software and system requirements needed to install an
 | Software | Purpose |
 |-----------|---------|
 | Git | Clone the official QubiC repositories from GitLab |
-| Python 3.10 | Required to execute the QubiC software and tutorial notebooks |
+| Python 3.10 | Execute the QubiC software and tutorial notebooks |
 | Windows PowerShell | Command-line interface used throughout this guide |
 | Jupyter Notebook | Execute the official QubiC tutorial notebooks |
 | Visual Studio Code *(Optional)* | View and edit Python scripts and notebooks |
@@ -28,9 +28,9 @@ This section describes the software and system requirements needed to install an
 
 Before proceeding, ensure that:
 
-- Git is installed and accessible from PowerShell.
+- Git is installed and accessible from Windows PowerShell.
 - Python 3.10 is installed.
-- pip is installed with Python.
+- `pip` is installed with Python.
 - Windows PowerShell is available.
 - A stable internet connection is available to download repositories and Python packages.
 
@@ -76,6 +76,16 @@ pip xx.x.x
 
 ---
 
+## Official Resources
+
+- **Python Downloads:** https://www.python.org/downloads/
+- **Git Downloads:** https://git-scm.com/downloads
+- **Windows PowerShell Documentation:** https://learn.microsoft.com/powershell/
+- **Jupyter Notebook Documentation:** https://jupyter.org/
+- **Visual Studio Code:** https://code.visualstudio.com/
+
+---
+
 ## Next Step
 
-Continue with **02_Install_Git.md**.
+Continue to **[02_Install_Git.md](02_Install_Git.md)**.
