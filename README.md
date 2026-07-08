@@ -100,6 +100,23 @@ For beginners, it is recommended to follow the repository in the following order
 
  ---
 
+## My Contribution
+
+This repository does not reproduce the official QubiC source code.
+
+Instead, it documents my internship work on understanding, installing, configuring, and executing the QubiC framework on Windows.
+
+It includes:
+
+- Installation guide
+- PowerShell commands
+- Tutorial explanations
+- Documentation
+- Literature references
+- Internship report
+
+
+---
 
 ## Official QubiC Repositories
 
@@ -117,3 +134,12 @@ https://gitlab.com/LBL-QubiC
 - QubiC Development Team
 - National Institute of Technology Calicut
 - Cochin University of Science and Technology
+
+
+---
+
+## Disclaimer
+
+The QubiC software and FPGA gateware are developed by Lawrence Berkeley National Laboratory.
+
+This repository is an educational companion documenting my internship experience and the setup process.
