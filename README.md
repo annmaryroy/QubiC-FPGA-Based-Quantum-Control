@@ -1,7 +1,5 @@
 # FPGA-Based Emulation Using QubiC
 
-#### FPGA-Based Quantum Circuit Control, Calibration, and Emulation Using the QubiC Open-Source Framework
-
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![FPGA](https://img.shields.io/badge/FPGA-RFSoC-green)
@@ -9,6 +7,8 @@
 ![QubiC](https://img.shields.io/badge/Framework-QubiC-red)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+### FPGA-Based Quantum Circuit Control, Calibration, and Emulation Using the QubiC Open-Source Framework
 
 This repository documents my internship at the **National Institute of Technology Calicut (NITC)** on **FPGA-Based Emulation Using the QubiC Open-Source Framework**, under the guidance of **Dr. Nikhil Kumar C S**.
 
